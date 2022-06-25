@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>mPokket - Fast approval, Instant loan</title>
+    <meta charset="UTF-8" />
+    <!-- icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/icon/site.webmanifest" />
+    <!-- icon -->
+    <!-- Sougata Mukherjee -->
+    <!-- animate -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- animate -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- Sougata Mukherjee -->
+    <!-- navbar start -->
+    <section class="nav-bar">
+      <div class="container">
+        <div class="nav-fixed" id="navBar">
+          <div class="nav-wrapper">
+            <div class="nav-left">
+              <a href="index.html"
+                ><div class="logo-img">
+                  <img src="assets/img/logo.png" alt="" /></div
+              ></a>
+            </div>
+            <div class="header">
+              <div class="nav-middle scroll-spy">
+                <ul class="nav-ul-lg">
+                  <li><a href="#menuone">INSTANT LOAN APP</a></li>
+                  <li><a href="#menutwo">LOAN TYPES</a></li>
+                  <li><a href="#menuthree">RESOURCES</a></li>
+                  <li><a href="#menufour">FAQS</a></li>
+                  <li><a href="#menufive">CONTACT US</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Pls click the apply button -->
+            <div class="nav-right">
+              <a id="mymodalbtn" class="apply-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Apply now
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="banner">
+          <div class="ban-text">
+            <h2>
+              Avail Instant <span>Personal Loans</span> <br />
+              Using mPokket Instant Loan App
+            </h2>
+            <p>
+              Secure and instant personal loans for students <br />
+              and salaried professionals
+            </p>
+            <div class="app-img">
+              <a href="#" class="tooltip" title="Download from play store">
+                <img src="assets/img/google-play.jpg" alt="banner" />
+                <!-- <span class="tooltiptext">Google Play</span> -->
+              </a>
+              <a href="#" class="tooltip" title="Download from app store">
+                <img src="assets/img/app-store.jpg" alt="" />
+                <!-- <span class="tooltiptext">App Store</span> -->
+              </a>
+            </div>
+            <div class="star-point-ban">
+              <ul>
+                <li>
+                  <img src="assets/img/ban-icon1.png" alt="" />
+                  <h4>7 Million+</h4>
+                  <p>DOWNLOADS</p>
+                </li>
+                <li>
+                  <img src="assets/img/ban-icon2.png" alt="" />
+                  <h4>2 Million+</h4>
+                  <p>SATISFIED CUSTOMERS</p>
+                </li>
+                <li>
+                  <img src="assets/img/ban-icon3.png" alt="" />
+                  <h4>4+ Star</h4>
+                  <p>RATINGS ON GOOGLE PLAY</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>Loan Apply Form</h2>
+            </div>
+            <div class="modal-body">
+              <p>Please fill the form</p>
+              <form action="#" class="apply-form">
+                <label for="first-name">First Name<span>*</span></label
+                ><br />
+                <input
+                  type="text"
+                  name="first-name"
+                  required
+                  placeholder="Tell us your first name"
+                  id="fname"
+                />
+                <br />
+                <label for="last-name">Last Name<span>*</span></label
+                ><br />
+                <input
+                  type="text"
+                  name="last-name"
+                  required
+                  placeholder="Tell us your last name"
+                  id="lname"
+                />
+                <br />
+                <label for="email">Email Id</label>
+                <br />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Tell us your Email ID"
+                  id="emailid"
+                />
+                <br />
+                <label for="contact">Contact Details<span>*</span></label>
+                <br />
+                <select name="countryCode" id="ccode" required>
+                  <option data-countryCode="IN" value="91" selected>
+                    India (+91)
+                  </option>
+                  <optgroup label="Other Country Where we are">
+                    <option data-countryCode="ZA" value="27">
+                      South Africa (+27)
+                    </option>
+                    <option data-countryCode="ES" value="34">
+                      Spain (+34)
+                    </option>
+                    <option data-countryCode="LK" value="94">
+                      Sri Lanka (+94)
+                    </option>
+                    <option data-countryCode="SE" value="46">
+                      Sweden (+46)
+                    </option>
+                    <option data-countryCode="CH" value="41">
+                      Switzerland (+41)
+                    </option>
+                    <option data-countryCode="TH" value="66">
+                      Thailand (+66)
+                    </option>
+                    <option data-countryCode="TG" value="228">
+                      Togo (+228)
+                    </option>
+                    <option data-countryCode="TC" value="1649">
+                      Turks &amp; Caicos Islands (+1649)
+                    </option>
+                    <option data-countryCode="TV" value="688">
+                      Tuvalu (+688)
+                    </option>
+                    <option data-countryCode="UG" value="256">
+                      Uganda (+256)
+                    </option>
+                    <option data-countryCode="GB" value="44">UK (+44)</option>
+                    <option data-countryCode="UA" value="380">
+                      Ukraine (+380)
+                    </option>
+                    <option data-countryCode="AE" value="971">
+                      United Arab Emirates (+971)
+                    </option>
+                    <option data-countryCode="UY" value="598">
+                      Uruguay (+598)
+                    </option>
+                    <option data-countryCode="US" value="1">USA (+1)</option>
+                    <option data-countryCode="VN" value="84">
+                      Vietnam (+84)
+                    </option>
+                  </optgroup>
+                </select>
+                <input
+                  type="number"
+                  name="contact"
+                  id="number"
+                  class="number"
+                  required
+                />
+                <br />
+                <input
+                  type="checkbox"
+                  id="apply-check"
+                  name="Whatsapp"
+                  value="Whatsapp"
+                />
+                <label for="apply-check" style="font-size: 14px"
+                  >This is my Whatsapp Number
+                  <span style="font-size: 12px; color: blue"
+                    >(optional)</span
+                  ></label
+                ><br />
+                <button class="submit-btn" type="submit" value="Submit">
+                  Submit
+                </button>
+                <br />
+                <p
+                  style="
+                    color: rgb(139, 0, 0);
+                    font-size: 12px;
+                    text-align: end;
+                  "
+                >
+                  * required
+                </p>
+                <br />
+                <input type="checkbox" name="terms" id="terms" required />
+                <label class="tandc" for="terms"
+                  >I agree to mPokket's <a href="#">Terms of Service</a> and
+                  <a href="">Privacy Policy.</a><span>*</span></label
+                >
+              </form>
+            </div>
+            <div class="modal-footer">
+              <h3>* Thanks *</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav">
+        <ul class="nav-ul">
+          <li class="list expand-nav active-nav">
+            <a>
+              <span class="icon"
+                ><ion-icon name="reorder-three" class="open"></ion-icon>
+              </span>
+              <span class="title"></span>
+            </a>
+          </li>
+          <li class="list" title="Instant Loan App">
+            <a href="#menuone">
+              <span class="icon"><ion-icon name="document"></ion-icon> </span>
+              <span class="title">INSTANT LOAN APP</span>
+            </a>
+          </li>
+          <li class="list" title="Loan Types">
+            <a href="#menutwo">
+              <span class="icon"><ion-icon name="duplicate"></ion-icon></span>
+              <span class="title">LOAN TYPES</span>
+            </a>
+          </li>
+          <li class="list" title="Resources">
+            <a href="#menuthree">
+              <span class="icon"
+                ><ion-icon name="logo-apple-ar"></ion-icon
+              ></span>
+              <span class="title">RESOURCES</span>
+            </a>
+          </li>
+          <li class="list" title="Frequently Asked Questions">
+            <a href="#menufour">
+              <span class="icon"><ion-icon name="help"></ion-icon></span>
+              <span class="title">FAQS</span>
+            </a>
+          </li>
+          <li class="list" title="Contact Us">
+            <a href="#menufive">
+              <span class="icon"><ion-icon name="call"></ion-icon></span>
+              <span class="title">CONTACT US</span>
+            </a>
+          </li>
+          <li class="list apply-btn-list" title="Apply Now">
+            <a id="mymodalbtnsec" class="apply-btn"> Apply now </a>
+          </li>
+        </ul>
+      </div>
+      <div class="close-btn-nav">
+        <ion-icon name="close"></ion-icon>
+      </div>
+    </section>
+    <!-- navbar end -->
+    <!-- Sougata Mukherjee -->
+    <!-- how start -->
+    <section class="how" id="menutwo">
+      <div class="container">
+        <div class="how-head head" data-aos="fade-up">
+          <h3>How mPokket works?</h3>
+          <p>
+            College students and young professionals may need cash for their
+            daily needs or to overcome <br />
+            the end of the month cash crunch. mPokket can be a handy companion
+            in dealing with such situations <br />
+            through its short term personal loans.
+          </p>
+        </div>
+        <div class="how-slider">
+          <div class="container">
+            <div class="how-card-lg">
+              <div class="row how-box-wrap">
+                <div class="how-box" data-aos="fade-up">
+                  <div class="box-top row">
+                    <img src="assets/img/how-1.png" alt="" />
+                    <h2>7.3%</h2>
+                  </div>
+                  <div class="box-mid">
+                    <h3>Student Loan</h3>
+                    <p>Stay turned into the world of finance & business.</p>
+                    <h4>4 months instalment</h4>
+                  </div>
+                  <div class="box-btm">
+                    <a href="#" class="bx-btm-link"><span></span>Know more</a>
+                  </div>
+                </div>
+                <div class="how-box" data-aos="fade-up">
+                  <div class="box-top row">
+                    <img src="assets/img/how-2.png" alt="" />
+                    <h2>7.7%</h2>
+                  </div>
+                  <div class="box-mid">
+                    <h3>Gold Loan</h3>
+                    <p>Stay turned into the world of finance & business.</p>
+                    <h4>4 months instalment</h4>
+                  </div>
+                  <div class="box-btm">
+                    <a href="#" class="bx-btm-link"><span></span>Know more</a>
+                  </div>
+                </div>
+                <div class="how-box" data-aos="fade-up">
+                  <div class="box-top row">
+                    <img src="assets/img/how-3.png" alt="" />
+                    <h2>7.4%</h2>
+                  </div>
+                  <div class="box-mid">
+                    <h3>Car Loan</h3>
+                    <p>Stay turned into the world of finance & business.</p>
+                    <h4>4 months instalment</h4>
+                  </div>
+                  <div class="box-btm">
+                    <a href="#" class="bx-btm-link"><span></span>Know more</a>
+                  </div>
+                </div>
+                <div class="how-box" data-aos="fade-up">
+                  <div class="box-top row">
+                    <img src="assets/img/how-4.png" alt="" />
+                    <h2>7.9%</h2>
+                  </div>
+                  <div class="box-mid">
+                    <h3>Home Loan</h3>
+                    <p>Stay turned into the world of finance & business.</p>
+                    <h4>4 months instalment</h4>
+                  </div>
+                  <div class="box-btm">
+                    <a href="#" class="bx-btm-link"><span></span>Know more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="how-card-sm">
+              <!-- Swiper -->
+              <div class="swiper swiper-container mySwiper" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="how-box">
+                      <div class="box-top row">
+                        <img src="assets/img/how-1.png" alt="" />
+                        <h2>7.3%</h2>
+                      </div>
+                      <div class="box-mid">
+                        <h3>Student Loan</h3>
+                        <p>Stay turned into the world of finance & business.</p>
+                        <h4>4 months instalment</h4>
+                      </div>
+                      <div class="box-btm">
+                        <a href="#" class="bx-btm-link"
+                          ><span></span>Know more</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="how-box">
+                      <div class="box-top row">
+                        <img src="assets/img/how-2.png" alt="" />
+                        <h2>7.7%</h2>
+                      </div>
+                      <div class="box-mid">
+                        <h3>Gold Loan</h3>
+                        <p>Stay turned into the world of finance & business.</p>
+                        <h4>4 months instalment</h4>
+                      </div>
+                      <div class="box-btm">
+                        <a href="#" class="bx-btm-link"
+                          ><span></span>Know more</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="how-box">
+                      <div class="box-top row">
+                        <img src="assets/img/how-3.png" alt="" />
+                        <h2>7.4%</h2>
+                      </div>
+                      <div class="box-mid">
+                        <h3>Car Loan</h3>
+                        <p>Stay turned into the world of finance & business.</p>
+                        <h4>4 months instalment</h4>
+                      </div>
+                      <div class="box-btm">
+                        <a href="#" class="bx-btm-link"
+                          ><span></span>Know more</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="how-box" data-aos="fade-up">
+                      <div class="box-top row">
+                        <img src="assets/img/how-4.png" alt="" />
+                        <h2>7.9%</h2>
+                      </div>
+                      <div class="box-mid">
+                        <h3>Home Loan</h3>
+                        <p>Stay turned into the world of finance & business.</p>
+                        <h4>4 months instalment</h4>
+                      </div>
+                      <div class="box-btm">
+                        <a href="#" class="bx-btm-link"
+                          ><span></span>Know more</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- how end -->
+    <!-- Sougata Mukherjee -->
+    <!-- feature start -->
+    <section class="feature" id="menuthree">
+      <div class="fe-bg-l">
+        <img src="assets/img/feature-bg-left.png" alt="" />
+      </div>
+      <div class="fe-bg-r">
+        <img src="assets/img/feature-bg-right.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="how-head head" data-aos="fade-up">
+          <h3>Our Main Feature</h3>
+        </div>
+        <div class="fe-wrap">
+          <div class="fe-bg">
+            <img src="assets/img/feature-bg-mid-back.jpg" alt="" />
+          </div>
+          <div class="row fe-row">
+            <div class="fe-l">
+              <div class="row fe-box" data-aos="fade-up">
+                <div class="fh">
+                  <h3>Login Email</h3>
+                  <p>
+                    Applying for loans in banks or <br />
+                    financial
+                  </p>
+                </div>
+                <div class="fimg">
+                  <img src="assets/img/fe-1.png" alt="" />
+                </div>
+              </div>
+              <div class="row fe-box" data-aos="fade-up">
+                <div class="fh">
+                  <h3>Upload Documents</h3>
+                  <p>
+                    Applying for loans in banks or <br />
+                    financial
+                  </p>
+                </div>
+                <div class="fimg">
+                  <img src="assets/img/fe-2.png" alt="" />
+                </div>
+              </div>
+              <div class="row fe-box" data-aos="fade-up">
+                <div class="fh">
+                  <h3>Graphs of loan</h3>
+                  <p>
+                    Applying for loans in banks or <br />
+                    financial
+                  </p>
+                </div>
+                <div class="fimg">
+                  <img src="assets/img/fe-3.png" alt="" />
+                </div>
+              </div>
+              <div class="row fe-box" data-aos="fade-up">
+                <div class="fh">
+                  <h3>User Friendly</h3>
+                  <p>
+                    Applying for loans in banks or <br />
+                    financial
+                  </p>
+                </div>
+                <div class="fimg">
+                  <img src="assets/img/fe-4.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="fe-m" data-aos="slide-up">
+              <img src="assets/img/feature-bg-mobile.png" alt="" />
+            </div>
+            <div class="fe-r">
+              <div class="row fe-box" data-aos="fade-up">
+                <div class="fimg">
+                  <img src="assets/img/fe-5.png" alt="" />
+                </div>
+                <div class="fh">
+                  <h3>Get Reminder</h3>
+                  <p>
+                    Applying for loans in banks or <br />
+                    financial
+                  </p>
+                </div>
+              </div>
+              <div class="row fe-box" data-aos="fade-up">
+                <div class="fimg">
+                  <img src="assets/img/fe-6.png" alt="" />
+                </div>
+                <div class="fh">
+                  <h3>Share your credit</h3>
+                  <p>
+                    Applying for loans in banks or <br />
+                    financial
+                  </p>
+                </div>
+              </div>
+              <div class="row fe-box" data-aos="fade-up">
+                <div class="fimg">
+                  <img src="assets/img/fe-7.png" alt="" />
+                </div>
+                <div class="fh">
+                  <h3>Safe Documents</h3>
+                  <p>
+                    Applying for loans in banks or <br />
+                    financial
+                  </p>
+                </div>
+              </div>
+              <div class="row fe-box" data-aos="fade-up">
+                <div class="fimg">
+                  <img src="assets/img/fe-8.png" alt="" />
+                </div>
+                <div class="fh">
+                  <h3>Get Started</h3>
+                  <p>
+                    Applying for loans in banks or <br />
+                    financial
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fe-sm row">
+          <div class="fe-m">
+            <img src="assets/img/feature-bg-mobile.png" alt="" />
+          </div>
+          <div class="fe-l">
+            <div class="row fe-box" data-aos="fade-up">
+              <div class="fh">
+                <h3>Login Email</h3>
+                <p>
+                  Applying for loans in banks or <br />
+                  financial
+                </p>
+              </div>
+              <div class="fimg">
+                <img src="assets/img/fe-1.png" alt="" />
+              </div>
+            </div>
+            <div class="row fe-box" data-aos="fade-up">
+              <div class="fh">
+                <h3>Upload Documents</h3>
+                <p>
+                  Applying for loans in banks or <br />
+                  financial
+                </p>
+              </div>
+              <div class="fimg">
+                <img src="assets/img/fe-2.png" alt="" />
+              </div>
+            </div>
+            <div class="row fe-box" data-aos="fade-up">
+              <div class="fh">
+                <h3>Graphs of loan</h3>
+                <p>
+                  Applying for loans in banks or <br />
+                  financial
+                </p>
+              </div>
+              <div class="fimg">
+                <img src="assets/img/fe-3.png" alt="" />
+              </div>
+            </div>
+            <div class="row fe-box" data-aos="fade-up">
+              <div class="fh">
+                <h3>User Friendly</h3>
+                <p>
+                  Applying for loans in banks or <br />
+                  financial
+                </p>
+              </div>
+              <div class="fimg">
+                <img src="assets/img/fe-4.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="fe-r">
+            <div class="row fe-box" data-aos="fade-up">
+              <div class="fimg">
+                <img src="assets/img/fe-5.png" alt="" />
+              </div>
+              <div class="fh">
+                <h3>Get Reminder</h3>
+                <p>
+                  Applying for loans in banks or <br />
+                  financial
+                </p>
+              </div>
+            </div>
+            <div class="row fe-box" data-aos="fade-up">
+              <div class="fimg">
+                <img src="assets/img/fe-6.png" alt="" />
+              </div>
+              <div class="fh">
+                <h3>Share your credit</h3>
+                <p>
+                  Applying for loans in banks or <br />
+                  financial
+                </p>
+              </div>
+            </div>
+            <div class="row fe-box" data-aos="fade-up">
+              <div class="fimg">
+                <img src="assets/img/fe-7.png" alt="" />
+              </div>
+              <div class="fh">
+                <h3>Safe Documents</h3>
+                <p>
+                  Applying for loans in banks or <br />
+                  financial
+                </p>
+              </div>
+            </div>
+            <div class="row fe-box" data-aos="fade-up">
+              <div class="fimg">
+                <img src="assets/img/fe-8.png" alt="" />
+              </div>
+              <div class="fh">
+                <h3>Get Started</h3>
+                <p>
+                  Applying for loans in banks or <br />
+                  financial
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- feature end -->
+    <!-- Sougata Mukherjee -->
+    <!-- content part 1 start -->
+    <section class="content-1" id="menufive">
+      <div class="con-1-bg" data-aos="fade-right">
+        <img src="assets/img/cont-1-bg.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="how-head head cont-1-head">
+          <h3 data-aos="fade-up">
+            What Makes mPokket India’s Best Online Personal Loan Platform?
+          </h3>
+          <p data-aos="fade-left">
+            Applying for loans in banks or financial institutions can be
+            cumbersome. With mPokket, the entire process of applying for a loan
+            is available on your phone. The loan application process is
+            paperless and simple. Get your personal loan approved within
+            minutes.
+          </p>
+          <a href="#" class="con-1-btn bx-btm-link">
+            <span></span>
+            Contact Us</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- content part 1 end -->
+    <!-- Sougata Mukherjee -->
+    <!-- content part 2 start -->
+    <section class="content-2">
+      <div class="cont-2-bg" data-aos="fade-right">
+        <img src="assets/img/con-2-bg.png" alt="" />
+      </div>
+
+      <div class="cont-2-bg-bottom">
+        <img src="assets/img/cont-2-bg-bottom.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="cont-2-wrap" data-aos="fade-left">
+          <h2>Need a Personalized Solution?</h2>
+          <p>
+            Get in touch with us, and we will help you to create the right one
+            for your business or personal needs.Get in touch with us, and we
+            will help you to create the right one for your business or personal
+            needs.Get in touch with us, and we will help you to create the right
+            one for your business or personal needs.
+          </p>
+          <a id="cont-2-modal" class="bx-btm-link"
+            ><span></span>Apply for a loan</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- content part 2 end -->
+    <!-- Sougata Mukherjee -->
+    <!-- content part 3 Start -->
+    <section class="content-3" id="menufour">
+      <div class="container">
+        <div class="cont-3-head head" data-aos="fade-up">
+          <h3>Some of the most loved features of mPokket are:</h3>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="cont-3-wrap">
+          <div class="con3-item" data-aos="fade-right">
+            <div class="c3-t">
+              <div class="c-3-icon">
+                <img src="assets/img/con-3-icon-1.png" alt="" />
+              </div>
+            </div>
+            <div class="c3-m">
+              <h4>Checking Account</h4>
+              <p>
+                Choose from our checking options that allow you to earn
+                interest, avoid fees, and easily manage your account.
+              </p>
+            </div>
+            <div class="c3-b">
+              <a href="#"
+                ><p>Open Account</p>
+                <ion-icon name="arrow-forward" title="none"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="con3-item" data-aos="fade-up">
+            <div class="c3-t">
+              <div class="c-3-icon">
+                <img src="assets/img/con-3-icon-2.png" alt="" />
+              </div>
+            </div>
+            <div class="c3-m">
+              <h4>Savings Accounts</h4>
+              <p>
+                Save for your goals and watch your money grow with a CD, a money
+                market account, a savings account.Your future starts now.
+              </p>
+            </div>
+            <div class="c3-b">
+              <a href="#"
+                ><p>Start Saving</p>
+                <ion-icon name="arrow-forward" title="none"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="con3-item" data-aos="fade-left">
+            <div class="c3-t">
+              <div class="c-3-icon">
+                <img src="assets/img/con-3-icon-3.png" alt="" />
+              </div>
+            </div>
+            <div class="c3-m">
+              <h4>Business Account</h4>
+              <p>
+                Take charge of your business banking with a business bank
+                account. Services including virtual cards, team management and
+                more.
+              </p>
+            </div>
+            <div class="c3-b">
+              <a href="#"
+                ><p>Open Account</p>
+                <ion-icon name="arrow-forward" title="none"></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Content Part 3 End -->
+    <!-- Sougata Mukherjee -->
+    <!-- leading page start -->
+
+    <section class="leading">
+      <div class="lead-top-bg">
+        <img src="assets/img/cont-2-bg-bottom.png" alt="" />
+      </div>
+      <div class="lead-vector" data-aos="fade-up">
+        <img src="assets/img/lead-bg-vector.svg" alt="" />
+      </div>
+      <div class="container">
+        <div class="lead-text" data-aos="fade-right">
+          <h2>Our Lending Partners</h2>
+          <h4>Jalan Chemical Industries Private Limited</h4>
+          <h4>RBI Registration no: 05.00336</h4>
+          <h4>mPokket Financial Services Private Limited</h4>
+          <h4>RBI Registration no: N-05.07091</h4>
+          <h3>RBI Disclaimer</h3>
+          <p>
+            Reserve Bank of India does not accept any responsibility or
+            guarantee about the present position as to the financial soundness
+            of the company or for the correctness of any of the statements or
+            representations made or opinions expressed by the company and for
+            discharge of liability by the company.
+          </p>
+        </div>
+      </div>
+      <div class="lead-bottom-bg">
+        <img src="assets/img/cont-2-bg-bottom.png" alt="" />
+      </div>
+    </section>
+
+    <!-- leading page end -->
+    <!-- Sougata Mukherjee  -->
+    <!-- applicationn form -->
+    <section class="application" id="menuone">
+      <div class="app-img-application" data-aos="fade-up">
+        <img src="assets/img/app-phone.svg" alt="" />
+      </div>
+      <div class="container">
+        <div class="app-text" data-aos="fade-right">
+          <h2>Download the mPokket app</h2>
+          <div class="app-links">
+            <a href="#" title="Download from play store"
+              ><img src="assets/img/google-play.jpg" alt=""
+            /></a>
+            <a href="#" title="Download from app store"
+              ><img src="assets/img/app-store.jpg" alt=""
+            /></a>
+          </div>
+          <form action="#">
+            <input
+              type="number"
+              placeholder="Enter your mobile number to get the app link →"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- application form -->
+    <!-- footer -->
+    <section class="footer">
+      <div class="container">
+        <div class="foot-top">
+          <div class="f-t-l" data-aos="fade-right">
+            <h3>What we can do for you?</h3>
+            <p>
+              We can help you to strategize, design, develop, deploy & grow your
+              digitally-enabled brands and products, seamlessly.
+            </p>
+          </div>
+          <div class="f-t-r">
+            <a href="#" class="con-1-btn ft-btn bx-btm-link">
+              <span style="top: 174.359px; left: 128.312px"></span>
+              Contact Us</a
+            >
+          </div>
+        </div>
+        <div class="foot-mid">
+          <ul class="foot-ul">
+            <li class="foot-li" data-aos="fade-right">
+              <ul>
+                <li class="foot-li-heading">what we do</li>
+                <li><a href="#">.web</a></li>
+                <li><a href="#">.e-commerce</a></li>
+                <li><a href="#">.custom software</a></li>
+                <li><a href="#">.iOS & android apps</a></li>
+                <li><a href="#">.graphics & motion</a></li>
+                <li><a href="#">.interface (ui/ux) designs</a></li>
+              </ul>
+            </li>
+            <li class="foot-li" data-aos="fade-right">
+              <ul>
+                <li class="foot-li-heading">explore</li>
+                <li><a href="#">.online retail</a></li>
+                <li><a href="#">.duty free & travel retail</a></li>
+                <li><a href="#">.works</a></li>
+                <li><a href="#">.blogs</a></li>
+                <li><a href="#">.press & media</a></li>
+              </ul>
+            </li>
+            <li class="foot-li" data-aos="fade-left">
+              <ul>
+                <li class="foot-li-heading">who we are</li>
+                <li><a href="#">.about</a></li>
+                <li><a href="#">.career</a></li>
+                <li><a href="#">.contact</a></li>
+                <li><a href="#">.success stories</a></li>
+              </ul>
+            </li>
+            <li class="foot-li" data-aos="fade-left">
+              <ul>
+                <li class="foot-li-heading">our policies</li>
+                <li><a href="#">.legal notice</a></li>
+                <li><a href="#">.terms & condtions</a></li>
+                <li><a href="#">.disclaimer</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="foot-bot">
+          <div class="f-b-l">
+            <a href="index.html"
+              ><img src="assets/img/footer-logo.png" alt=""
+            /></a>
+          </div>
+          <div class="f-b-r">
+            <ul>
+              <li>
+                <a href="#"><img src="assets/img/facebook.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="assets/img/youtube.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="assets/img/twitter.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="assets/img/instagram.svg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <!-- Sougata Mukherjee -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="assets/js/jquery.scrollspy.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        offset: 100,
+        duration: 1000,
+      });
+    </script>
+    <!-- SNP/GWD/40232 -->
+  </body>
+</html>
